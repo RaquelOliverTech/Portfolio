@@ -1042,28 +1042,32 @@
 
             <button class="btn contact__btn">Enviar mensagem</button>
           </form> -->
-          <form action="https://formsubmit.co/DaitanSoftwarenginner@outlook.com" method="POST" class="contact__form">
-            <!-- Adicione estes inputs hidden para configurar o FormSubmit -->
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
-            
-            <!-- Seus campos atuais -->
-            <div class="form__group">
-              <div class="form__input">
-                <input type="text" name="nome" placeholder="Nome" class="input__control" required />
-              </div>
-              <div class="form__input">
-                <input type="email" name="email" placeholder="Email" class="input__control" required />
-              </div>
-            </div>
-            <div class="form__input">
-              <input type="text" name="assunto" placeholder="Titulo" class="input__control" required />
-            </div>
-            <div class="form__input">
-              <textarea name="mensagem" placeholder="Message" cols="30" rows="10" class="input__control textarea" required></textarea>
-            </div>
-            <button type="submit" class="btn contact__btn">Enviar mensagem</button>
-          </form>
+          <form action="https://formsubmit.co/0eba49f7e622922d4fda04d616d06889" method="POST" class="contact__form">
+  <!-- Configurações do FormSubmit -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table"> <!-- Melhora formatação do email -->
+  <input type="hidden" name="_subject" value="Novo contato do site!"> <!-- Assunto personalizado -->
+  
+  <!-- Campos do formulário -->
+  <div class="form__group">
+    <div class="form__input">
+      <input type="text" name="nome" placeholder="Nome" class="input__control" required>
+    </div>
+    <div class="form__input">
+      <input type="email" name="email" placeholder="Email" class="input__control" required>
+    </div>
+  </div>
+  
+  <div class="form__input">
+    <input type="text" name="assunto" placeholder="Título" class="input__control" required>
+  </div>
+  
+  <div class="form__input">
+    <textarea name="mensagem" placeholder="Mensagem" cols="30" rows="10" class="input__control textarea" required></textarea>
+  </div>
+  
+  <button type="submit" class="btn contact__btn">Enviar mensagem</button>
+</form>
         </div>
       </section>     
 
