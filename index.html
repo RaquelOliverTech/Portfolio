@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfólio de Raquel Oliver - Tech Recruiter e Web Developer</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+      <h3 class="style__switcher-title">Cores</h3>
+
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+      </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Raquel</a>
+
+        <input type="checkbox"  id="nav-toggler">
+
+        <label for="nav-toggler" class="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Inicio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Perfil</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Experiência</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Conhecimentos</a>
+          </li>
+
+         <!-- <li class="nav__item">
+            <a href="#works" class="nav__link">Portfolio</a>
+          </li> -->
+           
+          <li class="nav__item">
+            <a href="#certificates" class="nav__link">Certificados</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contato</a>
+          </li>
+        </ul>       
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home_small">Olá</span>
+            <h1 class="home__title"><span>Eu sou a</span> Raquel Oliver<br><span>Tech Recruiter em Formação.</span>
+            </h1>
+
+            <p class="home__description">
+              Busco unir tecnologia e gestão de pessoas para criar combinações perfeitas entre profissionais qualificados e 
+              empresas que necessitam de expertise. Com isso, espero impulsionar carreiras e fortalecer equipes no mercado de tecnologia.
+            </p>
+
+            <div class="home__btns">
+              <a href="#contact" class="btn">Fale comigo</a>
+                <a href="#certificates" class="btn btn--transparent">Certificados</a> 
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="assets/img/fotoperfil.png" alt="" class="home__img">
+          </div>
+        </div>
+      </section>
+         
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/sobremim.jpg" alt="" class="about__img" />
+            <img src="assets/img/sobremim.jpg" alt="" class="about__img" />
+            <img src="assets/img/sobremim.jpg" alt="" class="about__img" />
+            <img src="assets/img/sobremim.jpg" alt="" class="about__img" />
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title" data-title="Quem sou?">
+              Sou estudante de RH, em busca de me tornar recrutadora especializada em T.I.
+            </h2>
+
+            <p class="about__description">
+              Bacharela em Sistemas de Informação, com especialização em Governança em TI e uma paixão genuína por tecnologia. 
+              Com habilidades focadas em Front-End, compreendo as demandas do setor e sempre tive vontade de conectar as pessoas certas às oportunidades ideais. 
+              Com essa vocação, estou me especializando como Tech Recruiter, unindo conhecimento técnico e visão estratégica de RH para encontrar os melhores talentos para cada desafio.
+            </p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Nome:</h3>
+                <span class="data__description">Raquel Oliveira</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Idade:</h3>
+                <span class="data__description">23 anos</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Onde mora:</h3>
+                <span class="data__description">São Paulo/SP</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+                <span class="data__description about__link">DaitanSoftwarenginner@outlook.com</span>
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a href="LINK_DO_SEU_PDF_AQUI.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download CV</a>
+
+              <div class="about__social-links">
+                <a href="https://www.instagram.com/raqueloliver16" class="about__social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/raquelolivertech" class="about__social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://wa.me/5511913407671" class="about__social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="mailto:DaitanSoftwarenginner@outlook.com" class="about__social-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="Minha Jornada">
+          Qualificação
+        </h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Formação Acadêmica</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Universidade Nove De Julho</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Gestão de RH <small>(Tecnólogo)</small></h3>
+                    <span class="resume__date">2025 - Atual</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Desenvolvendo habilidades em recrutamento, seleção e gestão de pessoas,
+                    com foco em práticas modernas de recursos humanos e metodologias ágeis.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Universidade Nove De Julho</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Governança em T.I <small>(Pós-Graduação)</small></h3>
+                    <span class="resume__date">2024 - 2025</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Aprofundamento nas práticas de governança de TI, focando na gestão de tecnologias, 
+                    processos e segurança da informação, visando alinhamento estratégico entre TI e negócios.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Universidade Nove De Julho</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Sistemas de Informação <small>(Bacharelado)</small></h3>
+                    <span class="resume__date">2020 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Formação sólida em desenvolvimento de sistemas, análise de dados e soluções tecnológicas, 
+                    com especial interesse em front-end e desenvolvimento web.
+                  </p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experiência</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Oliver & Marti</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Atendente</h3>
+                    <span class="resume__date">2019 - Atual</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Desenvolvo minha comunicação, habilidades interpessoais e 
+                    capacidade de entender e atender às necessidades dos outros, criando soluções eficazes e fortalecendo relações.
+                  </p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Conhecimentos">
+          O que posso fazer por você
+        </h2>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="fa-solid fa-people-arrows services__icon"></i>
+
+            <h3 class="services__title">Recrutamento e Seleção</h3>
+            <p class="services__description">
+              Conhecimento em elaboração de fichas de cargos e salários, 
+              técnicas de atração de candidatos (interno e externo), triagem de CVs, entrevistas, dinâmicas de grupo, provas de conhecimento, testes psicométricos, formulação de perguntas estratégicas, MBTI, DISC.
+            </p>
+
+            <span class="services__no">01</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chalkboard-user services__icon"></i>
+
+            <h3 class="services__title">T&D</h3>
+            <p class="services__description">
+              Conhecimento em gamificação, microlearning, metodologia STAR, levantamento de necessidades, ROI, métricas de engajamento. 
+              Facilitação de treinamentos (oratória, feedback), adaptabilidade, avaliação de resultados, planilhas, orçamentos.
+            </p>
+
+            <span class="services__no">02</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-file-invoice-dollar services__icon"></i>
+
+            <h3 class="services__title">Departamento Pessoal</h3>
+            <p class="services__description">
+              Conhecimento em cálculos trabalhistas (hora extra, DSR, adicional noturno, 
+              insalubridade, periculosidade, descontos legais), apuração de ponto e fechamento de folha. eSocial (admissão, rescisão, férias), FGTS Digital e DCTFWeb. Processos admissionais e demissionais.
+            </p>
+
+            <span class="services__no">03</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chess-knight services__icon"></i>
+
+            <h3 class="services__title">Business Partner</h3>
+            <p class="services__description">
+              Conhecimento em consultoria de RH (SWOT, Matriz GUT), gestão estratégica de pessoas, 
+              ferramentas de análise (5 Porquês, Pareto, liderança situacional). Visão estratégica, comunicação com stakeholders e resolução de problemas baseados em dados.
+            </p>
+
+            <span class="services__no">04</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-line services__icon"></i>
+
+            <h3 class="services__title">Avaliação de Desempenho</h3>
+            <p class="services__description">
+              Conhecimento em métodos como 360° e avaliação por competências. Feedback eficaz, desenvolvimento de planos individuais (PDI) e 
+              análise de indicadores de desempenho (KPIs), com foco em mapear gaps e potencial para otimizar o desempenho organizacional.
+            </p>
+
+            <span class="services__no">05</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+
+            <h3 class="services__title">Desenvolvimento Web</h3>
+            <p class="services__description">
+              Conhecimento em Front-End, utilizando HTML5, CSS3, Bootstrap, JavaScript e WordPress para criar interfaces responsivas, interativas e dinâmicas. Foco na experiência do usuário, com ênfase em design intuitivo, adaptação a diferentes dispositivos.
+            </p>
+
+            <span class="services__no">06</span>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+     <!-- <section class="skills section">
+        <h2 class="section__title title-center" data-title="Meu talento">
+          Professional Skills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">PHP</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skills__description">
+              Services with more than 3 years of experience. Providing quality
+              work with the best tools and up-to-date trends.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Java</h3>
+              <span class="skills__no">75 %</span>
+            </div>
+
+            <p class="skills__description">
+              Services with more than 3 years of experience. Providing quality
+              work with the best tools and up-to-date trends.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Wordpress</h3>
+              <span class="skills__no">15 %</span>
+            </div>
+
+            <p class="skills__description">
+              Services with more than 3 years of experience. Providing quality
+              work with the best tools and up-to-date trends.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 15%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__no">75 %</span>
+            </div>
+
+            <p class="skills__description">
+              Services with more than 3 years of experience. Providing quality
+              work with the best tools and up-to-date trends.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">React</h3>
+              <span class="skills__no">95 %</span>
+            </div>
+
+            <p class="skills__description">
+              Services with more than 3 years of experience. Providing quality
+              work with the best tools and up-to-date trends.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 95%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Adobe</h3>
+              <span class="skills__no">75 %</span>
+            </div>
+
+            <p class="skills__description">
+              Services with more than 3 years of experience. Providing quality
+              work with the best tools and up-to-date trends.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!--==================== PORTFOLIO ====================-->
+      <!-- <section class="works section" id="works">
+        <h2 class="section__title title-center" data-title="Meu Portfolio">
+          Trabalhos Recentes
+        </h2>
+
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img src="assets/img/project-img-1.jpg" alt="" class="work__img" />
+            
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Essa é uma descrição pequena</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-2.jpg" alt="" class="work__img" />
+            
+            <div class="work__details">
+              <h3 class="work__title">Android App</h3>
+              <span class="work__description">Essa é uma descrição pequena</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-3.jpg" alt="" class="work__img" />
+            
+            <div class="work__details">
+              <h3 class="work__title">PhotoShop</h3>
+              <span class="work__description">Essa é uma descrição pequena</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-4.jpg" alt="" class="work__img" />
+            
+            <div class="work__details">
+              <h3 class="work__title">Ui/UX</h3>
+              <span class="work__description">Essa é uma descrição pequena</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-5.jpg" alt="" class="work__img" />
+            
+            <div class="work__details">
+              <h3 class="work__title">Ui/UX</h3>
+              <span class="work__description">Essa é uma descrição pequena</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-6.jpg" alt="" class="work__img" />
+            
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">Essa é uma descrição pequena</span>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!--==================== CERTIFICATES ====================-->
+      <section class="certificates section" id="certificates">
+        <h2 class="section__title title-center" data-title="Meus Certificados">
+            Formação Complementar
+        </h2>
+    
+        <div class="certificates__filters">
+            <button class="certificates__filter active" data-filter="all">Todos</button>
+            <button class="certificates__filter" data-filter="RH">RH</button>
+            <button class="certificates__filter" data-filter="TI">TI</button>
+            <button class="certificates__filter" data-filter="Outros">Outros</button>
+        </div>
+    
+        <div class="certificates__container container grid">
+            <!-- Item 1 - RH -->
+            <div class="certificates__item" data-category="RH">
+                <img src="assets/img/cert1.jpg" alt="Certificate 1" class="certificates__img">
+                <div class="certificates__details">
+                    <h3 class="certificates__title">Assistente de Recursos Humanos</h3>
+                <!--<p class="certificates__description">Certificado de</p>-->
+                    <a href="https://drive.google.com/file/d/1mIRl-oMRgWQfotdejfYfufL9D-ji_Svv/view?usp=drive_link" class="certificate-link" target="_blank">
+                      Ver Certificado <i class="fas fa-arrow-right-long"></i>
+                  </a>
+                </div>
+            </div>
+    
+            <div class="certificates__item" data-category="RH">
+                <img src="assets/img/cert2.png" alt="Certificate 2" class="certificates__img">
+                <div class="certificates__details">
+                    <h3 class="certificates__title">Formação de Business Partner - RH estrategista</h3>
+                    <a href="https://drive.google.com/file/d/1Gxie-o2YMlWc31ED6432G5UFnjLeODFC/view?usp=drive_link" class="certificate-link" target="_blank">
+                      Ver Certificado <i class="fas fa-arrow-right-long"></i>
+                  </a>
+                </div>
+            </div>
+    
+            <div class="certificates__item" data-category="RH">
+                <img src="assets/img/cert3.jpg" alt="Certificate 3" class="certificates__img">
+                <div class="certificates__details">
+                    <h3 class="certificates__title">T&D: Educação Corporativa </h3>
+                    <a href="https://drive.google.com/file/d/1z7paMny1fA93l43Co-Toujfxv7Mw2-KY/view?usp=drive_link" class="certificate-link" target="_blank">
+                      Ver Certificado <i class="fas fa-arrow-right-long"></i>
+                  </a>
+                </div>
+            </div>
+    
+
+            <!-- Item 2 - TI -->
+            <div class="certificates__item" data-category="TI">
+                <img src="assets/img/cert4.png" alt="Certificate 4" class="certificates__img">
+                <div class="certificates__details">
+                    <h3 class="certificates__title">Mercado de TI e o que o mercado espera desse profissional?</h3>
+                    <a href="https://drive.google.com/file/d/1in0uAh-ASyo-HdS61jtm8vYALRWvExBD/view?usp=sharing" class="certificate-link" target="_blank">
+                      Ver Certificado <i class="fas fa-arrow-right-long"></i>
+                  </a>
+                </div>
+            </div>
+    
+            <div class="certificates__item" data-category="TI">
+                <img src="assets/img/cert5.jpg" alt="Certificate 5" class="certificates__img">
+                <div class="certificates__details">
+                    <h3 class="certificates__title">O impacto da Inteligência Artificial no mercado de trabalho </h3>
+                    <a href="https://drive.google.com/file/d/1IC9VDCKL5fpJQX3cyrelKijvfF5BLuPF/view?usp=sharing" class="certificate-link" target="_blank">
+                      Ver Certificado <i class="fas fa-arrow-right-long"></i>
+                  </a>
+                </div>
+            </div>
+
+            <div class="certificates__item" data-category="TI">
+              <img src="assets/img/cert6.jpg" alt="Certificate 6" class="certificates__img">
+              <div class="certificates__details">
+                  <h3 class="certificates__title">Desenvolvimento Ágil: Como entregar valor rápido e com qualidade </h3>
+                  <a href="https://drive.google.com/file/d/1cMzB_q2j5FA0UsVZzPpdGQXmVRqdeqrf/view?usp=sharing" class="certificate-link" target="_blank">
+                    Ver Certificado <i class="fas fa-arrow-right-long"></i>
+                </a>
+              </div>
+          </div>
+
+          <div class="certificates__item" data-category="TI">
+            <img src="assets/img/cert7.jpg" alt="Certificate 7" class="certificates__img">
+            <div class="certificates__details">
+                <h3 class="certificates__title">Inteligência Artificial e Aplicações Práticas </h3>
+                <a href="https://drive.google.com/file/d/11M7DsU5kfZTP4syI5an1awiaMbbc7so5/view?usp=sharing" class="certificate-link" target="_blank">
+                  Ver Certificado <i class="fas fa-arrow-right-long"></i>
+              </a>
+            </div>
+        </div>
+
+        <div class="certificates__item" data-category="TI">
+          <img src="assets/img/cert8.jpg" alt="Certificate 8" class="certificates__img">
+          <div class="certificates__details">
+              <h3 class="certificates__title">Transformação Digital: O Papel da IA no Marketing </h3>
+              <a href="https://drive.google.com/file/d/1v-7DF2J0baHMm85gEpww6dWSi9uVM8TM/view?usp=sharing" class="certificate-link" target="_blank">
+                Ver Certificado <i class="fas fa-arrow-right-long"></i>
+            </a>
+          </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert9.jpg" alt="Certificate 9" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Como se preparar para a era da Inteligência Artificial </h3>
+            <a href="https://drive.google.com/file/d/1b1ogbZKqVKF6OR3MSHm6XdHg8YmuoY80/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert10.jpg" alt="Certificate 10" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">A importância dos dados e da tecnologia na tomada de decisão</h3>
+            <a href="https://drive.google.com/file/d/1YQt1jdBYynrXj-RJcNseB6KFLNjn8-_p/view?usp=drive_link" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert11.jpg" alt="Certificate 11" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">O mercado, as tecnologias e como se preparar </h3>
+            <a href="https://drive.google.com/file/d/1NUMUHIvhsZTfmE3wy7Oy7bjXuquzlMhC/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert12.png" alt="Certificate 12" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Primeiros passos com .NET</h3>
+            <a href="https://drive.google.com/file/d/1bEuXy2ge9XC95ImH1ImaZ3qkLFuMKMkt/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert13.jpg" alt="Certificate 13" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Orientação a objetos em .NET</h3>
+            <a href="https://drive.google.com/file/d/1b7cb1449BKivI4TDKdAGGg9AkkyhxVcL/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert14.jpg" alt="Certificate 14" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Introdução a microsserviços com .NET</h3>
+            <a href="https://drive.google.com/file/d/1b6IvOL9-nJISd5LIJoHQzwWRwZpoqpji/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert15.jpg" alt="Certificate 15" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Introdução a Engenharia de Dados na Azure</h3>
+            <a href="https://drive.google.com/file/d/1aswhiCuzKI5mKmA3bv9-S8V5eKjBLHp2/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert16.webp" alt="Certificate 16" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Arquitetura de Sistemas Avançado</h3>
+            <a href="https://drive.google.com/file/d/1ah9qN_JRhN8fY-mygtur1vZsk-TOAEHV/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert17.webp" alt="Certificate 17" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Configuração e Deploy na nuvem Microsoft Azure Cloud</h3>
+            <a href="https://drive.google.com/file/d/1akqCNURDfuRhZl6CJj9A1vQatZ_sd8-R/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert18.jpg" alt="Certificate 18" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Introdução a aplicações serverless na Azure com .NET</h3>
+            <a href="https://drive.google.com/file/d/1b3j7F2jcJqAO-r6HEevSyfJnUlkird7X/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert19.jpg" alt="Certificate 19" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Fundamentos de Arquitetura de Sistemas</h3>
+            <a href="https://drive.google.com/file/d/1arOcjnVHm-HH9URmOd0KWMXi46sl29vn/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert20.jpeg" alt="Certificate 20" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Criando um APP simples de cadastro de séries em .NET</h3>
+            <a href="https://drive.google.com/file/d/1alKrsXup9Bw4Qrw6rm0wHQXZcN-iQ-R9/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="TI">
+        <img src="assets/img/cert21.jpg" alt="Certificate 21" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Criando um catálogo de jogos usando boas práticas de arquitetura com .NET</h3>
+            <a href="https://drive.google.com/file/d/1amlqXjm1HfFOCtP0gTeqXobVPhUycWkE/view?usp=drivesdk" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Item 3 - Outros -->
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert22.webp" alt="Certificate 22" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Microsoft Word e PowerPoint</h3>
+            <a href="https://drive.google.com/file/d/1oUCXyDZUGHPRttNVms6qwXn8PMOsyHQE/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert23.jpg" alt="Certificate 23" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Microsoft Excel - Módulo 1</h3>
+            <a href="https://drive.google.com/file/d/1DGxDWMCcmON3jdGAcgunIM6CWaz_umT9/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert23.jpg" alt="Certificate 24" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Microsoft Excel - Módulo 2</h3>
+            <a href="https://drive.google.com/file/d/1Wyx_s1q0SEephwBQbmhRU81VkBQXViYy/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert24.jpg" alt="Certificate 25" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Informática</h3>
+            <a href="https://drive.google.com/file/d/1Z_UFT0F2djxZnck3IYXo6UFdluJyuY-p/view?usp=drive_link" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert25.jpg" alt="Certificate 26" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Adobe Photoshop</h3>
+            <a href="https://drive.google.com/file/d/13SRff3I0Wi-7QLanpOqDngDeM6p3HzRL/view?usp=drive_link" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert26.jpg" alt="Certificate 27" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">After Effects, Adobe Illustrator e Adobe Premiere</h3>
+            <a href="https://drive.google.com/file/d/1tOcyCtGW_ECw5KlUVzp-eiK9pRAleE-9/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert27.webp" alt="Certificate 28" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Excel, Internet, PowerPoint, Windows 8, Word</h3>
+            <a href="https://drive.google.com/file/d/1tOcyCtGW_ECw5KlUVzp-eiK9pRAleE-9/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert29.jpg" alt="Certificate 29" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Português Bem Empregado - Módulo 1</h3>
+            <a href="https://drive.google.com/file/d/1plTnmMkMCR-mNOaxPG728nOwrtlf_kf8/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert29.jpg" alt="Certificate 30" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Português Bem Empregado - Módulo 2</h3>
+            <a href="https://drive.google.com/file/d/1iUPLhOdvsQTAcBBwQdIZQytHwfVS8p9H/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert29.jpg" alt="Certificate 31" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Português - Regras e Uso</h3>
+            <a href="https://drive.google.com/file/d/1x8SpY3owiuHjGXBKkQayAW49Aw986-V_/view?usp=drive_link" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert28.png" alt="Certificate 32" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Conquiste sua Liberdade Financeira</h3>
+            <a href="https://drive.google.com/file/d/1NHFOmwuqrR2uwzuLwfr0BoMy0iU6YpNs/view?usp=drive_link" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert28.png" alt="Certificate 33" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Planeje sua liberdade</h3>
+            <a href="https://drive.google.com/file/d/1jsdXArcS5M4jy8Bz1WVTJeZ9m1dT15fy/view?usp=drive_link" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert30.jpg" alt="Certificate 34" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">English Proficiency - Low Advanced </h3>
+            <a href="https://drive.google.com/file/d/1uXWFIAkGY_Vim4Qr85RUquJmuddEvkLg/view?usp=drive_link" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="certificates__item" data-category="Outros">
+        <img src="assets/img/cert31.jpg" alt="Certificate 35" class="certificates__img">
+        <div class="certificates__details">
+            <h3 class="certificates__title">Empregabilidade e Ética profissional</h3>
+            <a href="https://drive.google.com/file/d/1BMQfbwNdpiMaXjZmGxRbUg4BjL_jHjal/view?usp=sharing" class="certificate-link" target="_blank">
+              Ver Certificado <i class="fas fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+
+    
+        </div>
+        </div>
+      </section>
+ 
+      <!--==================== TESTIMONIALS ====================-->
+     <!-- <section class="testimonials section">
+        <h2 class="section__title title-center" data-title="Testemunhas">
+          Testemunhas
+        </h2>
+
+        <div class="testimonials__container container grid">
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              adadakdkadkadkakdkakakdakdkadkakdad. akdakdk
+              ajdjadjajdajdjadjadjajda ajdajdjajdajd a aa
+              ajdddddddadad adad,dadadadada. DDAD adadad da
+              dadada.
+            </p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/testimonial-1.jpg" alt="" 
+              class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">John Wilson</h3>
+                <span class="testimonials__identity">Seattle,</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              adadakdkadkadkakdkakakdakdkadkakdad. akdakdk
+              ajdjadjajdajdjadjadjajda ajdajdjajdajd a aa
+              ajdddddddadad adad,dadadadada. DDAD adadad da
+              dadada.
+            </p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/testimonial-2.jpg" alt="" 
+              class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">John Wilson</h3>
+                <span class="testimonials__identity">Seattle,</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Contato">
+          Fale comigo
+        </h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Me ligue</h3>
+                <span class="contact__data">+55 (11) 91340-7671</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Meu Email</h3>
+                <span class="contact__data">DaitanSoftwarenginner@outlook.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Endereço</h3>
+                <span class="contact__data">São Paulo, SP</span>
+              </div>
+            </div>
+          </div>
+
+        <!--  <form action="" class="contact__form">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" placeholder="Nome" class="input__control" />
+              </div>
+
+              <div class="form__input">
+                <input 
+                  type="email" 
+                  placeholder="Email" 
+                  class="input__control"
+                />
+              </div>
+            </div>
+
+            <div class="form__input">
+              <input type="text" placeholder="Titulo" class="input__control" />
+            </div>
+
+            <div class="form__input">
+              <textarea 
+                name=""
+                id="" 
+                placeholder="Message"
+                cols="30" 
+                rows="10"
+                class="input__control textarea"
+              ></textarea>
+            </div>
+
+            <button class="btn contact__btn">Enviar mensagem</button>
+          </form> -->
+          <form action="https://formsubmit.co/DaitanSoftwarenginner@outlook.com" method="POST" class="contact__form">
+            <!-- Adicione estes inputs hidden para configurar o FormSubmit -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+            
+            <!-- Seus campos atuais -->
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" name="nome" placeholder="Nome" class="input__control" required />
+              </div>
+              <div class="form__input">
+                <input type="email" name="email" placeholder="Email" class="input__control" required />
+              </div>
+            </div>
+            <div class="form__input">
+              <input type="text" name="assunto" placeholder="Titulo" class="input__control" required />
+            </div>
+            <div class="form__input">
+              <textarea name="mensagem" placeholder="Message" cols="30" rows="10" class="input__control textarea" required></textarea>
+            </div>
+            <button type="submit" class="btn contact__btn">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>     
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">&copy; 2025 Raquel. Todos direitos reservados</p>
+    
+        <div class="footer__social-links">
+          <!-- Instagram -->
+          <a 
+            href="https://www.instagram.com/raqueloliver16" 
+            class="footer__social-link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+    
+          <!-- LinkedIn -->
+          <a 
+            href="https://www.linkedin.com/in/raquelolivertech" 
+            class="footer__social-link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+    
+          <!-- WhatsApp -->
+          <a 
+            href="https://wa.me/5511913407671" 
+            class="footer__social-link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+    
+          <!-- E-mail -->
+          <a 
+            href="mailto:DaitanSoftwarenginner@outlook.com" 
+            class="footer__social-link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
