@@ -21,4 +21,42 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     });
+    // Novo código para o formulário
+  const contactForm = document.getElementById('contactForm');
+  const formSuccess = document.getElementById('formSuccess');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Mostra um loader (opcional)
+      const submitBtn = this.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Enviando...';
+      
+      // Envia os dados para o FormSubmit
+      fetch('https://formsubmit.co/ajax/0eba49f7e622922d4fda04d616d06889', {
+        method: 'POST',
+        body: new FormData(this)
+      })
+      .then(response => response.json())
+      .then(data => {
+        // Sucesso - mostra mensagem e reseta o form
+        formSuccess.style.display = 'block';
+        contactForm.reset();
+        
+        // Esconde a mensagem após 5 segundos
+        setTimeout(() => {
+          formSuccess.style.display = 'none';
+        }, 5000);
+      })
+      .catch(error => {
+        alert('Ocorreu um erro. Por favor, tente novamente.');
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Enviar mensagem';
+      });
+    });
+  }
 });
